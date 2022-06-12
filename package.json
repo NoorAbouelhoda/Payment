@@ -1,0 +1,21 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build api/index.js --dist-dir build --no-source-maps",
+    "dev": "node api/index.js",
+    "start": "node ./api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "parcel": "^2.6.0",
+    "parcel-bundler": "^1.12.5",
+    "stripe": "^9.5.0"
+  },
+  "description": "",
+  "devDependencies": {
+  }
+}
